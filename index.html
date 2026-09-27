@@ -1,769 +1,950 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="4f76f6dbc01fe4b7a3d41e656b73b0af5b7700af" content="4f76f6dbc01fe4b7a3d41e656b73b0af5b7700af" />
-4f76f6dbc01fe4b7a3d41e656b73b0af5b7700af    
-    <meta name="4f76f6dbc01fe4b7a3d41e656b73b0af5b7700af" content="4f76f6dbc01fe4b7a3d41e656b73b0af5b7700af" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>How to Make Money</title>
+
+<title>Earn Online - Download App</title>
 
 <style>
 *{
-    box-sizing:border-box;
     margin:0;
     padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
 }
 
 body{
-    font-family:Arial,Helvetica,sans-serif;
-    background:#080b12;
+    background:
+    radial-gradient(circle at top,#312e81,transparent 35%),
+    linear-gradient(135deg,#020617,#0f172a);
     color:#fff;
     min-height:100vh;
+    padding:15px;
 }
 
 .container{
-    width:min(900px,94%);
+    max-width:650px;
     margin:auto;
-    padding:25px 0 50px;
 }
+
+/* HEADER */
 
 .header{
     text-align:center;
-    padding:25px 15px;
+    padding:25px 10px;
 }
 
 .logo{
     width:75px;
     height:75px;
+    margin:auto;
     border-radius:20px;
-    margin:0 auto 15px;
-    background:linear-gradient(135deg,#00e5ff,#6c5ce7);
+    background:linear-gradient(135deg,#6366f1,#8b5cf6);
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:34px;
+    font-size:32px;
     font-weight:bold;
-    box-shadow:0 0 35px rgba(0,229,255,.25);
 }
 
 h1{
-    font-size:32px;
-    margin-bottom:10px;
+    font-size:30px;
+    margin-top:16px;
 }
 
 .subtitle{
-    color:#9ca3af;
-    font-size:15px;
+    color:#cbd5e1;
+    margin-top:10px;
+    line-height:1.6;
 }
 
-.card{
-    background:#111621;
-    border:1px solid #252c3a;
-    border-radius:22px;
-    padding:25px;
-    margin-top:20px;
-    box-shadow:0 15px 45px rgba(0,0,0,.25);
+
+/* AD BOX */
+
+.ad-box{
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:18px;
+    padding:12px;
+    margin:18px 0;
+    text-align:center;
+    overflow:hidden;
 }
 
-.card h2{
-    font-size:22px;
-    margin-bottom:20px;
+.ad-title{
+    font-size:10px;
+    color:#64748b;
+    letter-spacing:1px;
+    margin-bottom:8px;
+    text-transform:uppercase;
 }
 
-.features{
+
+/* EZMOB */
+
+.ezmob-300{
+    width:300px;
+    min-height:250px;
+    max-width:100%;
+    margin:auto;
+}
+
+#container1{
+    width:300px;
+    min-height:250px;
+    max-width:100%;
+    margin:auto;
+}
+
+
+/* 728x90 */
+
+.banner728{
+    width:728px;
+    max-width:100%;
+    min-height:90px;
+    margin:auto;
+    overflow:hidden;
+}
+
+
+/* HOW TO MAKE MONEY */
+
+.money-box{
+    background:rgba(255,255,255,.07);
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:20px;
+    padding:22px;
+    margin:20px 0;
+}
+
+.money-box h2{
+    text-align:center;
+    color:#a5b4fc;
+    margin-bottom:15px;
+}
+
+.money-list{
     list-style:none;
 }
 
-.features li{
-    padding:14px 0;
-    border-bottom:1px solid #242a36;
-    color:#dce1e8;
+.money-list li{
+    padding:13px 0;
+    border-bottom:1px solid rgba(255,255,255,.07);
+    color:#e2e8f0;
 }
 
-.features li:last-child{
-    border-bottom:0;
+.money-list li:last-child{
+    border-bottom:none;
 }
 
-.features li::before{
+.money-list li::before{
     content:"✓";
     display:inline-flex;
-    width:28px;
-    height:28px;
+    width:25px;
+    height:25px;
     border-radius:50%;
-    background:#182f30;
-    color:#00e5a0;
+    background:#22c55e;
     align-items:center;
     justify-content:center;
     margin-right:10px;
     font-weight:bold;
 }
 
-.ad-box{
-    background:#0d1119;
-    border:1px solid #242b38;
-    border-radius:15px;
-    padding:12px;
-    margin-top:20px;
-    text-align:center;
-    overflow:hidden;
-}
 
-.ad-label{
-    color:#707887;
-    font-size:11px;
-    margin-bottom:8px;
-    text-transform:uppercase;
-    letter-spacing:1px;
-}
+/* DOWNLOAD BUTTON */
 
-.banner-area{
-    min-height:90px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    overflow:hidden;
-}
-
-.download-section{
-    margin-top:25px;
-    text-align:center;
-}
-
-.download-main{
+.download-btn{
     width:100%;
+    padding:17px;
     border:0;
-    padding:17px 20px;
-    border-radius:14px;
-    background:linear-gradient(135deg,#00e5a0,#00a8ff);
-    color:#031014;
+    border-radius:15px;
+    background:linear-gradient(135deg,#6366f1,#8b5cf6);
+    color:#fff;
     font-size:18px;
-    font-weight:800;
+    font-weight:bold;
     cursor:pointer;
-    box-shadow:0 10px 30px rgba(0,200,255,.18);
 }
 
-.download-main:active{
-    transform:scale(.98);
+.download-btn:hover{
+    opacity:.92;
 }
 
 .small-note{
-    color:#777f8e;
+    text-align:center;
+    color:#94a3b8;
     font-size:12px;
-    margin-top:12px;
+    margin:10px 0 25px;
 }
 
-/* =========================
-   AD GATE
-========================= */
+
+/* AD GATE */
 
 #adGate{
     position:fixed;
     inset:0;
-    background:rgba(0,0,0,.86);
-    backdrop-filter:blur(10px);
+    z-index:999999;
     display:none;
     align-items:center;
     justify-content:center;
-    z-index:999999;
     padding:15px;
+    background:rgba(0,0,0,.88);
+    backdrop-filter:blur(8px);
 }
 
-.gate-box{
-    width:min(850px,100%);
+.gate{
+    width:100%;
+    max-width:850px;
     max-height:94vh;
     overflow-y:auto;
-    background:#10151f;
-    border:1px solid #303949;
+    background:#0f172a;
+    border:1px solid #334155;
     border-radius:22px;
     padding:20px;
-    box-shadow:0 25px 80px rgba(0,0,0,.7);
 }
 
-.gate-title{
+.gate h2{
     text-align:center;
-    font-size:23px;
-    font-weight:800;
 }
 
-.gate-info{
+.gate-text{
     text-align:center;
-    color:#9ca3af;
+    color:#94a3b8;
     font-size:13px;
     margin:8px 0 18px;
 }
 
-.timer{
-    text-align:center;
-    font-size:30px;
-    font-weight:900;
-    color:#00e5a0;
-    margin:10px 0 18px;
-}
 
-.ad-grid{
+/* DIRECT ADS */
+
+.direct-grid{
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:14px;
+    gap:15px;
 }
 
-.ad-preview{
-    background:#080b10;
-    border:1px solid #293140;
+.direct-card{
+    background:#020617;
+    border:1px solid #334155;
     border-radius:14px;
     overflow:hidden;
 }
 
-.ad-preview-title{
+.direct-card-title{
     padding:10px;
     font-size:13px;
     font-weight:bold;
-    color:#dce1e8;
-    background:#151b26;
 }
 
-.ad-frame{
+.direct-frame{
     width:100%;
-    height:260px;
+    height:250px;
     border:0;
     background:#fff;
 }
 
-.open-ad{
+.direct-btn{
     width:100%;
     border:0;
     padding:11px;
-    background:#202938;
-    color:#fff;
+    background:#334155;
+    color:white;
     cursor:pointer;
     font-weight:bold;
 }
 
-.open-ad:hover{
-    background:#2b3547;
+
+/* TIMER */
+
+.timer{
+    text-align:center;
+    color:#facc15;
+    font-weight:bold;
+    margin:18px 0 10px;
 }
 
 .progress{
+    width:100%;
     height:8px;
-    background:#252c38;
+    background:#1e293b;
     border-radius:20px;
     overflow:hidden;
-    margin:18px 0;
 }
 
 .progress-bar{
     width:0%;
     height:100%;
-    background:linear-gradient(90deg,#00e5a0,#00a8ff);
+    background:#22c55e;
     transition:.3s;
 }
 
-.unlock-btn{
+.unlock{
     width:100%;
+    margin-top:18px;
     padding:16px;
     border:0;
     border-radius:14px;
-    background:#303746;
-    color:#747d8d;
-    font-weight:800;
-    font-size:16px;
+    background:#334155;
+    color:#64748b;
+    font-size:17px;
+    font-weight:bold;
     cursor:not-allowed;
 }
 
-.unlock-btn.active{
-    background:linear-gradient(135deg,#00e5a0,#00a8ff);
-    color:#041015;
+.unlock.active{
+    background:linear-gradient(135deg,#22c55e,#16a34a);
+    color:white;
     cursor:pointer;
 }
 
-.warning{
+.footer{
     text-align:center;
-    color:#ffb86b;
-    font-size:12px;
-    margin-top:12px;
+    color:#64748b;
+    font-size:11px;
+    padding:20px 0;
 }
 
+
 @media(max-width:650px){
+
     h1{
-        font-size:27px;
+        font-size:26px;
     }
 
-    .card{
-        padding:19px;
-    }
-
-    .ad-grid{
+    .direct-grid{
         grid-template-columns:1fr;
     }
 
-    .ad-frame{
-        height:220px;
+    .direct-frame{
+        height:230px;
     }
 
-    .gate-box{
+    .gate{
         padding:15px;
     }
 }
 </style>
 
 
-<!-- =========================================================
-     HIGH REVENUE FORMAT
-========================================================= -->
+<!-- =====================================================
+     EZMOB BANNER 413819
+===================================================== -->
 
-<script>
-atOptions = {
-    'key' : 'b4457942a63e691b166fad379a531c3d',
-    'format' : 'iframe',
-    'height' : 90,
-    'width' : 728,
-    'params' : {}
+<script type="text/javascript">
+
+var __jscp=function(){
+
+for(
+var b=0,a=window;
+a!=a.parent;
+)++b,a=a.parent;
+
+if(
+a=window.parent==window
+?document.URL
+:document.referrer
+){
+
+var c=a.indexOf("://");
+
+0<=c&&(a=a.substring(c+3));
+
+c=a.indexOf("/");
+
+0<=c&&(a=a.substring(0,c));
+}
+
+var b={
+pu:a,
+if:b,
+rn:new Number(
+Math.floor(99999999*Math.random())+1
+)
+},
+
+a=[],
+d;
+
+for(d in b)
+a.push(
+d+"="+encodeURIComponent(b[d])
+);
+
+return encodeURIComponent(
+a.join("&")
+);
 };
+
+document.write(
+'<S' +
+'CRIPT TYPE="text/javascript" SRC="//cpm.ezmob.com/tag?zone_id=413819&size=300x250&subid=&j='
++
+__jscp()
++
+'"></S' +
+'CRIPT>'
+);
+
 </script>
 
-<script src="https://www.highrevenueformat.com/b4457942a63e691b166fad379a531c3d/invoke.js"></script>
 
-
-<!-- =========================================================
-     PROFITABLE RATE CPM
-========================================================= -->
-
-<script src="https://pl28191149.profitableratecpmnetwork.com/69/6f/c9/696fc9362d213ad97a6e549507572c3d.js"></script>
-
-<script async="async"
-data-cfasync="false"
-src="https://pl28191148.profitableratecpmnetwork.com/6b4bf9ba798b54640fc50410686f93d7/invoke.js"></script>
-
-
-<!-- =========================================================
-     MONETAG
-========================================================= -->
+<!-- =====================================================
+     EZMOB PREBID 413820
+===================================================== -->
 
 <script
-src="https://5gvci.com/act/files/tag.min.js?z=10633526"
-data-cfasync="false"
+type="text/javascript"
+src="https://ezmob-site.sfo3.digitaloceanspaces.com/prebid.js"
 async>
 </script>
 
 <script>
-(function(s){
-    s.dataset.zone='10633533',
-    s.src='https://n6wxm.com/vignette.min.js'
-})([document.documentElement,document.body]
-.filter(Boolean).pop()
-.appendChild(document.createElement('script')))
+
+var pbjs=pbjs||{};
+
+pbjs.que=pbjs.que||[];
+
+pbjs.que.push(function(){
+
+var adUnits=[{
+
+code:'container1',
+
+mediaTypes:{
+banner:{
+sizes:[
+[300,250]
+]
+}
+},
+
+bids:[{
+
+bidder:'adkernel',
+
+params:{
+zoneId:413820,
+host:'cpm.ezmob.com'
+}
+
+}]
+
+}];
+
+pbjs.addAdUnits(adUnits);
+
+pbjs.requestBids({
+
+bidsBackHandler:handleBids
+
+});
+
+});
+
+
+function handleBids(){
+
+var winners=
+pbjs.getHighestCpmBids();
+
+for(
+var i=0;
+i<winners.length;
+i++
+){
+
+var winner=winners[i];
+
+var iframe=
+document.createElement('iframe');
+
+iframe.scrolling='no';
+
+iframe.style.width='300px';
+
+iframe.style.height='250px';
+
+iframe.style.border='0';
+
+document
+.getElementById(winner.adUnitCode)
+.appendChild(iframe);
+
+pbjs.renderAd(
+iframe.contentDocument ||
+iframe.contentWindow.document,
+winner.adId
+);
+
+}
+
+}
+
 </script>
-
-
-<!-- =========================================================
-     WPADMANAGER
-     
-     IMPORTANT:
-     Yahan apna exact WPAdManager script paste karo.
-     
-     Tumhara original obfuscated script modify nahi karna.
-========================================================= -->
-
-<!--
-<script data-cfasync='false'>
-PASTE YOUR EXACT WPAdManager SCRIPT HERE
-</script>
--->
 
 </head>
+
 
 <body>
 
 <div class="container">
 
-    <div class="header">
-        <div class="logo">$</div>
 
-        <h1>How to Make Money</h1>
+<!-- HEADER -->
 
-        <div class="subtitle">
-            Complete simple tasks and start earning online
-        </div>
-    </div>
+<div class="header">
 
+<div class="logo">
+₹
+</div>
 
-    <div class="card">
+<h1>
+How to Make Money
+</h1>
 
-        <h2>Earn Money With Our App</h2>
-
-        <ul class="features">
-            <li>Watch ads &amp; earn</li>
-            <li>Complete custom tasks</li>
-            <li>Complete social media tasks</li>
-            <li>Play games &amp; earn</li>
-            <li>Promote your service &amp; social media accounts</li>
-        </ul>
-
-    </div>
-
-
-    <!-- PROFITABLE RATE CONTAINER -->
-
-    <div class="ad-box">
-        <div class="ad-label">Advertisement</div>
-
-        <div id="container-6b4bf9ba798b54640fc50410686f93d7"></div>
-    </div>
-
-
-    <!-- HIGH REVENUE / 728x90 -->
-
-    <div class="ad-box">
-        <div class="ad-label">Advertisement</div>
-
-        <div class="banner-area">
-            <script>
-            atOptions = {
-                'key' : 'b4457942a63e691b166fad379a531c3d',
-                'format' : 'iframe',
-                'height' : 90,
-                'width' : 728,
-                'params' : {}
-            };
-            </script>
-
-            <script src="https://www.highrevenueformat.com/b4457942a63e691b166fad379a531c3d/invoke.js"></script>
-        </div>
-    </div>
-
-
-    <!-- BANNER ID -->
-
-    <div class="ad-box">
-        <div class="ad-label">Advertisement</div>
-
-        <div data-banner-id="1501539"></div>
-    </div>
-
-
-    <!-- DOWNLOAD -->
-
-    <div class="download-section">
-
-        <button class="download-main" onclick="openAdGate()">
-            🚀 Download Application
-        </button>
-
-        <div class="small-note">
-            Complete the short ad-gate to unlock your download.
-        </div>
-
-    </div>
+<p class="subtitle">
+Complete simple tasks, watch ads, play games
+and explore different earning opportunities.
+</p>
 
 </div>
 
 
-<!-- =========================================================
-     AD GATE MODAL
-========================================================= -->
+<!-- =====================================================
+     EZMOB BANNER #1
+===================================================== -->
+
+<div class="ad-box">
+
+<div class="ad-title">
+Advertisement
+</div>
+
+<div class="ezmob-300">
+<!-- EZMob 413819 loads here -->
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     EZMOB BANNER #2
+===================================================== -->
+
+<div class="ad-box">
+
+<div class="ad-title">
+Advertisement
+</div>
+
+<div id="container1"></div>
+
+</div>
+
+
+<!-- =====================================================
+     HIGH REVENUE FORMAT 728x90
+===================================================== -->
+
+<div class="ad-box">
+
+<div class="ad-title">
+Advertisement
+</div>
+
+<div class="banner728">
+
+<script>
+
+atOptions={
+'key':'b4457942a63e691b166fad379a531c3d',
+'format':'iframe',
+'height':90,
+'width':728,
+'params':{}
+};
+
+</script>
+
+<script
+src="https://www.highrevenueformat.com/b4457942a63e691b166fad379a531c3d/invoke.js">
+</script>
+
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     PROFITABLE RATE CPM
+===================================================== -->
+
+<div class="ad-box">
+
+<div class="ad-title">
+Advertisement
+</div>
+
+<script
+src="https://pl28191149.profitableratecpmnetwork.com/69/6f/c9/696fc9362d213ad97a6e549507572c3d.js">
+</script>
+
+<script
+async
+data-cfasync="false"
+src="https://pl28191148.profitableratecpmnetwork.com/6b4bf9ba798b54640fc50410686f93d7/invoke.js">
+</script>
+
+<div id="container-6b4bf9ba798b54640fc50410686f93d7"></div>
+
+</div>
+
+
+<!-- =====================================================
+     HOW TO MAKE MONEY
+===================================================== -->
+
+<div class="money-box">
+
+<h2>
+💰 How to Make Money?
+</h2>
+
+<ul class="money-list">
+
+<li>
+Watch Ads &amp; Earn
+</li>
+
+<li>
+Complete Custom Tasks
+</li>
+
+<li>
+Complete Social Media Tasks
+</li>
+
+<li>
+Play Games &amp; Earn
+</li>
+
+<li>
+Promote Your Service &amp; Social Media Accounts
+</li>
+
+</ul>
+
+</div>
+
+
+<!-- DOWNLOAD -->
+
+<button
+class="download-btn"
+onclick="openAdGate()">
+
+📲 Download Application
+
+</button>
+
+<p class="small-note">
+Complete the sponsored step to unlock your application download.
+</p>
+
+
+<div class="footer">
+© 2026 • All Rights Reserved
+</div>
+
+</div>
+
+
+
+<!-- =====================================================
+     AD GATE
+===================================================== -->
 
 <div id="adGate">
 
-    <div class="gate-box">
+<div class="gate">
 
-        <div class="gate-title">
-            🔒 Download Verification
-        </div>
+<h2>
+🔒 Unlock Download
+</h2>
 
-        <div class="gate-info">
-            Please wait while the advertisements are displayed.
-            The download button will unlock automatically.
-        </div>
-
-        <div class="timer" id="timer">
-            15
-        </div>
+<p class="gate-text">
+Please wait while the sponsored content is displayed.
+</p>
 
 
-        <div class="ad-grid">
-
-            <!-- AD 1 -->
-
-            <div class="ad-preview">
-
-                <div class="ad-preview-title">
-                    Advertisement 1
-                </div>
-
-                <iframe
-                    id="adFrame1"
-                    class="ad-frame"
-                    src="about:blank"
-                    loading="eager"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-
-                <button
-                    class="open-ad"
-                    onclick="openExternalAd(1)">
-                    Open Advertisement
-                </button>
-
-            </div>
+<div class="direct-grid">
 
 
-            <!-- AD 2 -->
+<!-- DIRECT LINK 1 -->
 
-            <div class="ad-preview">
+<div class="direct-card">
 
-                <div class="ad-preview-title">
-                    Advertisement 2
-                </div>
+<div class="direct-card-title">
+Sponsored Advertisement 1
+</div>
 
-                <iframe
-                    id="adFrame2"
-                    class="ad-frame"
-                    src="about:blank"
-                    loading="eager"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+<iframe
+id="direct1"
+class="direct-frame"
+src="about:blank"
+title="Sponsored Advertisement 1">
+</iframe>
 
-                <button
-                    class="open-ad"
-                    onclick="openExternalAd(2)">
-                    Open Advertisement
-                </button>
+<button
+class="direct-btn"
+onclick="openDirect(1)">
 
-            </div>
+Open Advertisement
 
-        </div>
-
-
-        <div class="progress">
-            <div
-                id="progressBar"
-                class="progress-bar">
-            </div>
-        </div>
-
-
-        <button
-            id="unlockBtn"
-            class="unlock-btn"
-            disabled
-            onclick="downloadApp()">
-
-            Please wait...
-
-        </button>
-
-        <div class="warning">
-            ⚠️ Leaving the page does not speed up the timer.
-        </div>
-
-    </div>
+</button>
 
 </div>
+
+
+<!-- DIRECT LINK 2 -->
+
+<div class="direct-card">
+
+<div class="direct-card-title">
+Sponsored Advertisement 2
+</div>
+
+<iframe
+id="direct2"
+class="direct-frame"
+src="about:blank"
+title="Sponsored Advertisement 2">
+</iframe>
+
+<button
+class="direct-btn"
+onclick="openDirect(2)">
+
+Open Advertisement
+
+</button>
+
+</div>
+
+</div>
+
+
+<div
+id="timer"
+class="timer">
+
+Please wait 15 seconds...
+
+</div>
+
+
+<div class="progress">
+
+<div
+id="progressBar"
+class="progress-bar">
+</div>
+
+</div>
+
+
+<button
+id="unlock"
+class="unlock"
+disabled>
+
+🔒 Download Locked
+
+</button>
+
+</div>
+
+</div>
+
 
 
 <script>
 
-/* =========================================================
-   DOWNLOAD LINK
-========================================================= */
+/* =====================================================
+   DIRECT LINKS
+===================================================== */
+
+const DIRECT_LINK_1 =
+"https://www.profitableratecpmnetwork.com/ggbww70z?key=928a34111771129f0b7316670bf21a9d";
+
+const DIRECT_LINK_2 =
+"https://omg10.com/4/10613462";
+
+
+/* APPLICATION */
 
 const DOWNLOAD_URL =
 "https://dlsurf.com/f/c466edba";
 
 
-/* =========================================================
-   ADGATE DIRECT LINKS
-========================================================= */
+let timerInterval;
 
-const AD_URL_1 =
-"https://www.profitableratecpmnetwork.com/ggbww70z?key=928a34111771129f0b7316670bf21a9d";
-
-const AD_URL_2 =
-"https://omg10.com/4/10613462";
+let remaining=15;
 
 
-/* =========================================================
-   VARIABLES
-========================================================= */
-
-let gateTimer = null;
-let remaining = 15;
-let gateStarted = false;
-
-
-/* =========================================================
+/* =====================================================
    OPEN AD GATE
-========================================================= */
+===================================================== */
 
 function openAdGate(){
 
-    const gate =
-        document.getElementById("adGate");
-
-    gate.style.display = "flex";
-
-    if(gateStarted){
-        return;
-    }
-
-    gateStarted = true;
-
-    remaining = 15;
-
-    document.getElementById("timer")
-        .textContent = remaining;
-
-    document.getElementById("progressBar")
-        .style.width = "0%";
-
-    const unlockBtn =
-        document.getElementById("unlockBtn");
-
-    unlockBtn.disabled = true;
-    unlockBtn.classList.remove("active");
-    unlockBtn.textContent = "Please wait...";
+document.getElementById("adGate")
+.style.display="flex";
 
 
-    /*
-       Load the two direct-link ads.
-    */
+/*
+Attempt preview.
+Some advertising networks prevent
+iframe embedding. The fallback button
+below still opens the direct URL.
+*/
 
-    document.getElementById("adFrame1").src =
-        AD_URL_1;
+document.getElementById("direct1")
+.src=
+DIRECT_LINK_1;
 
-    document.getElementById("adFrame2").src =
-        AD_URL_2;
+document.getElementById("direct2")
+.src=
+DIRECT_LINK_2;
 
 
-    startCountdown();
+startTimer();
+
 }
 
 
-/* =========================================================
-   15 SECOND COUNTDOWN
-========================================================= */
+/* =====================================================
+   TIMER
+===================================================== */
 
-function startCountdown(){
+function startTimer(){
 
-    clearInterval(gateTimer);
+clearInterval(timerInterval);
 
-    gateTimer = setInterval(function(){
+remaining=15;
 
-        remaining--;
+const timer=
+document.getElementById("timer");
 
-        if(remaining < 0){
-            remaining = 0;
-        }
+const progress=
+document.getElementById("progressBar");
 
-        document.getElementById("timer")
-            .textContent = remaining;
-
-
-        const progress =
-            ((15 - remaining) / 15) * 100;
-
-        document.getElementById("progressBar")
-            .style.width = progress + "%";
+const unlock=
+document.getElementById("unlock");
 
 
-        if(remaining <= 0){
+unlock.disabled=true;
 
-            clearInterval(gateTimer);
+unlock.classList.remove("active");
 
-            unlockDownload();
-        }
+unlock.innerHTML=
+"🔒 Download Locked";
 
-    },1000);
+progress.style.width="0%";
+
+timer.innerHTML=
+"Please wait 15 seconds...";
+
+
+timerInterval=setInterval(function(){
+
+remaining--;
+
+let percent=
+((15-remaining)/15)*100;
+
+progress.style.width=
+percent+"%";
+
+
+if(remaining<=0){
+
+clearInterval(timerInterval);
+
+progress.style.width="100%";
+
+timer.innerHTML=
+"✅ Advertisement step completed";
+
+unlock.disabled=false;
+
+unlock.classList.add("active");
+
+unlock.innerHTML=
+"📲 Download Application";
+
+return;
+
 }
 
 
-/* =========================================================
-   UNLOCK DOWNLOAD
-========================================================= */
+timer.innerHTML=
+"Please wait "+
+remaining+
+" seconds...";
 
-function unlockDownload(){
+},1000);
 
-    const button =
-        document.getElementById("unlockBtn");
-
-    button.disabled = false;
-
-    button.classList.add("active");
-
-    button.textContent =
-        "✅ Download Application";
 }
 
 
-/* =========================================================
-   OPEN DIRECT AD
-========================================================= */
+/* =====================================================
+   DIRECT LINK FALLBACK
+===================================================== */
 
-function openExternalAd(number){
+function openDirect(number){
 
-    let url;
+let url;
 
-    if(number === 1){
-        url = AD_URL_1;
-    }else{
-        url = AD_URL_2;
-    }
+if(number===1){
 
-    /*
-       This function runs only after user taps the button,
-       which gives the browser a much better chance of
-       allowing the new tab.
-    */
+url=DIRECT_LINK_1;
 
-    window.open(
-        url,
-        "_blank",
-        "noopener,noreferrer"
-    );
+}else{
+
+url=DIRECT_LINK_2;
+
 }
 
-
-/* =========================================================
-   DOWNLOAD
-========================================================= */
-
-function downloadApp(){
-
-    const button =
-        document.getElementById("unlockBtn");
-
-    if(button.disabled){
-        return;
-    }
-
-    window.location.href =
-        DOWNLOAD_URL;
-}
-
-
-/* =========================================================
-   PREVENT ACCIDENTAL CLOSE DURING TIMER
-========================================================= */
-
-document.addEventListener(
-    "visibilitychange",
-    function(){
-
-        if(
-            document.hidden &&
-            gateStarted &&
-            remaining > 0
-        ){
-            /*
-               Timer continues only while page remains loaded.
-               Returning to the page does not reset it.
-            */
-        }
-
-    }
+window.open(
+url,
+"_blank",
+"noopener,noreferrer"
 );
+
+}
+
+
+/* =====================================================
+   DOWNLOAD
+===================================================== */
+
+document
+.getElementById("unlock")
+.addEventListener("click",function(){
+
+if(this.disabled)
+return;
+
+window.location.href=
+DOWNLOAD_URL;
+
+});
 
 </script>
 
 </body>
 </html>
+```
